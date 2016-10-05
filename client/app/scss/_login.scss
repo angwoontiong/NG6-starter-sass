@@ -1,0 +1,101 @@
+//
+// Login layout
+//
+
+body.login {
+  background-color: $gray-light;
+  //after demo update path without ../../
+  //background-image: url('../../assets/img/bg-login.jpg');
+  background-image: url('./assets/img/bg-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $gray-dark;
+  margin-top: 2rem;
+  padding-top: 0;
+  min-height: auto;
+
+  h4 {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  body.login {
+    margin-top: 8rem;
+    min-height: 28rem;
+  }
+}
+
+/*
+.alert {
+  max-width: 330px;
+  margin: 10px auto;
+}*/
+
+.form-signin {
+  max-width: 330px;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: $white;
+  border: $card-border-width solid $card-border-color;
+  border-radius: $border-radius-sm;
+  @include box-shadow(0 3px 5px rgba(0,0,0,.125));
+}
+
+.form-signin .logo {
+  margin: 0 auto $spacer-y auto;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  display: block;
+}
+
+.form-signin .input-group {
+  width: 100%;
+}
+
+.form-signin .input-group .input-group-addon {
+  background-color: $gray-lightest;
+  border-top: $border-width solid $input-border-color;
+  border-right: none;
+  border-bottom: $border-width solid $input-border-color;
+  border-left: $border-width solid $input-border-color;
+  width: 40px;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox,
+.form-signin .btn {
+  margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="input"] {
+  margin-bottom: 10px;
+}

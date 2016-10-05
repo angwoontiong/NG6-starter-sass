@@ -1,0 +1,85 @@
+// Donut Chart Mixin
+.donut-chart {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+
+  .slice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .chart-center {
+    position: absolute;
+    border-radius: 50%;
+  
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+@mixin donut-chart($name, $perc, $size, $width, $base, $center, $color, $textColor: $color, $textSize: 2.5rem) {
+  
+  $color2: $color;
+  $base2: $base;
+  $deg: ($perc/100*360)+deg;
+  $deg1: 90deg;
+  $deg2: $deg;
+  
+  // If percentage is less than 50%
+  @if $perc < 50 {
+    $base: $color;
+    $color: $base2;
+    $color2: $base2;
+    $deg1: ($perc/100*360+90)+deg;
+    $deg2: 0deg;
+  }
+    
+  .donut-chart {
+    &#{$name} {
+      width: $size;
+      height: $size;
+      background: $base;
+      margin: 0 auto $spacer-y auto;
+      
+      .slice {
+        &.one {
+          clip: rect(0 $size $size/2 0);
+          -webkit-transform: rotate($deg1);
+          transform: rotate($deg1);
+          background: $color;
+        }
+        
+        &.two {
+          clip: rect(0 $size/2 $size 0);
+          -webkit-transform: rotate($deg2);
+          transform: rotate($deg2);
+          background: $color2;
+        }
+      }
+      
+      .chart-center {
+        top: $width;
+        left: $width;
+        width: $size - ($width * 2);
+        height: $size - ($width * 2);
+        background: $center;
+        
+        span {
+          font-family: $font-family-sans-serif;
+          font-size: $textSize;
+          line-height: $size - ($width * 2);
+          color: $white;
+        }
+      }
+    }
+  }
+} // mixin
+
+// Charts
+@include donut-chart('.chart-1', 95, 180px, 4px, $gray-dark, $brand-blue-dark, $brand-info);

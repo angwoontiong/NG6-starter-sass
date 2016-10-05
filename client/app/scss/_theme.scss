@@ -1,0 +1,750 @@
+//
+// Theme styles for Symphony
+//
+
+.single-page {
+  color: $gray-lighter;
+}
+
+.icon-hamburger {
+  display: inline-block;
+  margin-top: 1px;
+  width: 20px;
+  height: 17px;
+  background-color: transparent;
+  //after demo update path without ../../
+  background-image: url('../../assets/img/icon-hamburger.png');
+  background-repeat: no-repeat;
+  background-size: 20px 17px;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+// Page Heading
+.page-heading {
+  padding-bottom: $spacer-y;
+}
+
+@include media-breakpoint-down(sm) {
+  .page-heading {
+    font-size: 1.5rem;
+    padding-bottom: ($spacer-y / 2);
+  }
+}
+
+// Separator
+.separator {
+  font-weight: 600;
+  margin-bottom: ($spacer-y * 1.5);
+  text-align: center;
+
+  span {
+    color: inherit;
+    display: inline-block;
+    position: relative;
+  }
+
+  span:before {
+    right: 100%;
+    margin-right: 1rem;
+  }
+
+  span:after {
+    left: 100%;
+    margin-left: 1rem;
+  }
+
+  span:before,
+  span:after {
+    border-bottom: 1px solid $gray-dark;
+    content: "";
+    height: ($font-size-h6 / 2);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-width: 100px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .separator {
+    span:before,
+    span:after {
+      width: 70%;
+      min-width: 50px;
+    }
+  }
+}
+
+
+//
+// Alternate styles overwrites
+//
+
+.navbar-sticky-top .col-xl-2 {
+  padding: 0;
+}
+
+.navbar-brand {
+  float: none;
+  display: block;
+  background-color: transparent;
+  //after demo update path without ../../
+  background-image: url('../../assets/img/symphony-logo.png');
+  // background-image: url('../../assets/img/symphony-logo-alt.png'); //
+  background-repeat: no-repeat;
+  background-size: 141px 40px;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 140px;
+}
+
+.navbar-title {
+  color: $near-black;
+  float: left;
+  padding-top:    .25rem;
+  padding-bottom: .25rem;
+  margin-right: 0;
+  margin-left: -.7rem;
+  font-size: $font-size-lg;
+  font-weight: 800;
+}
+
+.navbar-nav {
+  li {
+    a .label-pill {
+      font-weight: 400;
+      margin-left: 10px;
+      min-width: 20px;
+      padding: 3px;
+      position: absolute;
+      top: 0;
+    }
+  }
+}
+
+.navbar-nav .nav-item+.nav-item {
+  margin-left: ($spacer-x * 2);
+}
+
+.navbar-nav {
+  .dropdown-menu {
+    top: calc(100% + #{$spacer-y / 2});
+  }
+}
+
+.dropdown-divider {
+  background-color: $gray-lighter;
+}
+
+input {
+  font-family: $font-family-sans-serif;
+}
+
+.btn-group-sm > .btn {
+  min-width: 50px;
+}
+
+// Tabs
+
+.nav-tabs {
+  margin: 0.25rem auto 0 auto;
+  font-size: $font-size-sm;
+  text-transform: uppercase;
+
+  .nav-link {
+    color: $white;
+  }
+
+  .nav-link:hover {
+    color: $gray;
+  }
+
+  .nav-link.active {
+    @include plain-hover-focus {
+      color: $brand-warning;
+      border-top: none;
+      border-right: none;
+      border-bottom: solid 3px $brand-warning;
+      border-left: none;
+    }
+  }
+}
+
+.nav-tabs li:first-child {
+  padding-left: 5%;
+}
+
+.nav-tabs:after {
+  border-bottom: 1px solid $gray-dark;
+  content: "";
+  height: 1px;
+  width: 100%;
+}
+
+// Back to top
+
+.back-to-top {
+  //margin: ($spacer-y * 5) $spacer-x 0 $spacer-x;
+  margin-right:0px;
+  margin-bottom:50px;
+}
+
+// Tables
+
+.table-sorter {
+  thead a {
+    color: $white;
+    display: inline-block;
+    font-weight: 600;
+    width: 100%;
+  }
+}
+
+.table td,
+.table th {
+  border-top: 1px solid $gray-dark;
+}
+
+.table thead th {
+  border-bottom: 2px solid $gray-dark;
+}
+
+// Maps
+#mapCanvas,
+#mapCanvasDashboard {
+  margin-bottom: $spacer-y;
+  width: 100%;
+}
+
+// Need to have absolute value for map canvas height for each breakpoint
+#mapCanvas,
+#map {
+  height: 800px;
+}
+
+#mapCanvasDashboard {
+  height: 400px;
+}
+
+#mapCanvasDashboard h4,
+#mapCanvasDashboard ul li {
+  color: $near-black;
+}
+
+//
+// Sidebar
+//
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+
+  &--subtitle {
+    color: $gray-dark;
+    margin-top: $spacer-y;
+    margin-bottom: $spacer-y;
+  }
+
+  &--profile {
+    margin-top: ($spacer-y * 2);
+    margin-bottom: ($spacer-y * 2);
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+/*
+#sidebar-switch {
+  a:hover {
+    color: $gray-light;
+    text-decoration: none;
+  }
+
+  a:active a:focus {
+    outline: none;
+  }
+}*/
+
+
+@include media-breakpoint-up(md) {
+  .sidebar {
+    position: fixed;
+    width:250px;  //new
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: $near-black;
+    border-right: 1px solid $gray-dark;
+    z-index: $zindex-sidbar;
+  }
+
+
+  //sidebar action -- collapse
+  /*
+  .dashboard .sidebar{
+     width:250px;
+  }
+
+  .dashboard.sidebar-collapsed .sidebar{
+     width:50px;
+  }
+  */
+
+  //========================================================
+  enbala-sidebar .sidebar{
+     width:250px;
+  }
+
+  /*
+  .dashboard .main{
+     width:100%;
+  }*/
+
+  enbala-sidebar.sidebar-collapsed .sidebar{
+     //width:50px;
+     width:50px;
+  }
+
+  /*
+  .dashboard.sidebar-collapsed .main{
+     width:100%;
+  }*/
+
+  //========================================================
+
+}
+
+/* 
+
+/* Sidebar navigation */
+
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 0;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  color: $white;
+  display: inline-block;
+  margin-bottom: $spacer-y;
+  padding-right: $spacer-x;
+  padding-left: 20px;
+  height: auto;
+  width: 100%;
+  line-height: 2.5;
+  font-size: $font-size-sm;
+  white-space: nowrap;
+  outline:none;
+}
+.nav-sidebar > li > a:hover {
+  color: $gray;
+  text-decoration: $link-hover-decoration;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: $brand-warning;
+  background-color: $black;
+  border-left: solid 3px $brand-warning;
+  padding-left: 17px;
+  text-decoration: $link-hover-decoration;
+  outline: none;
+}
+
+.nav-sidebar > li > a > i {
+  margin-right: $spacer-x;
+  width: 15px;
+}
+
+.nav-sidebar .label {
+  margin-top: ($spacer-y / 2)
+}
+
+.collapse-sidebar {
+  border-top: solid 1px $gray-dark;
+}
+
+.user-avatar {
+  margin-bottom: $spacer-y;
+}
+
+.user-name {
+  font-size: $font-size-lg;
+  font-weight: 600;
+}
+
+.user-role {
+  font-size: $font-size-sm;
+  font-weight: 300;
+}
+
+.sidebar-divider {
+  background-color: $gray-dark;
+  margin-bottom: $spacer-y;
+  overflow: hidden;
+  height: 1px;
+}
+
+
+//
+// Main content
+//
+
+$margin-left:7%;
+$margin-right:3%;
+
+
+
+.main {
+  padding: $spacer-x;
+  margin-left:$margin-left;
+  margin-right:$margin-right;
+  //border: 2px dotted red;
+
+}
+
+//===============================================================================
+@include media-breakpoint-up(md) {
+  .main {
+    padding: $spacer-y .9375rem;
+  }
+
+  //'main' action -- when sidebar collapses
+  .dashboard .main{
+     //margin-left:300px;
+     width:90%;
+  } 
+
+  .dashboard.sidebar-collapsed .main{
+    //margin-left:100px;
+    width:90%;
+  }
+}
+//==================================================================================
+
+// Notifications
+
+// Could use a variant here
+.list-noti-item {
+  &.list-group-item-default {
+    border-left: .25rem solid $gray;
+  }
+  &.list-group-item-info {
+    border-left: .25rem solid $brand-info;
+  }
+  &.list-group-item-success {
+    border-left: .25rem solid $brand-success;
+  }
+  &.list-group-item-warning {
+    border-left: .25rem solid $brand-warning;
+  }
+  &.list-group-item-danger {
+    border-left: .25rem solid $brand-danger;
+  }
+  padding-left: $spacer-x;
+}
+
+.list-noti-item {
+  /*
+  &.unread {
+    font-weight: 600;
+  }
+
+  &.read {
+    font-weight: 600;
+  }*/
+
+  font-weight: 600;
+
+  i {
+    float: left;
+    margin-top: ($spacer-y / 2);
+    width: 10%;
+    display: inline-block;
+  }
+  .noti {
+    &--title {
+      font-size: $font-size-lg;
+      margin-left: 10%;
+    }
+    &--message {
+      font-size: $font-size-sm;
+      margin-left: 10%;
+    }
+    &--time-stamp {
+      font-family: $font-family-sans-serif;
+      font-size: $font-size-sm;
+      font-weight: 300;
+      margin-left:10%;
+    }
+    &--resolution {
+      font-size: $font-size-sm;
+      text-align: right;
+      text-decoration: underline;
+    }
+  }
+}
+
+.btn.all-noti {
+  position: absolute;
+  border-top: 1px solid $gray-light;
+  bottom: 0;
+  padding: $spacer-y 0;
+}
+
+//
+// Misc & Patterns 
+//
+#userLabel {
+  cursor: pointer;
+}
+h1.display-3 {
+  margin: $spacer-y 0;
+  padding: $spacer-y 0;
+  border-bottom: solid 1px $gray-lighter;
+}
+
+.pattern {
+  margin-bottom: 3rem;
+}
+
+ .btn-link {
+  text-transform: none;
+}
+
+.col-pipe-left {
+  border-left: solid 1px $gray-lighter;
+}
+
+.col-pipe-right {
+  border-right: solid 1px $gray-lighter;
+}
+
+// Accordion
+
+#accordion {
+
+}
+
+#accordion .panel .panel-heading {
+  border-bottom: dotted 1px $gray-dark;
+  margin-bottom: $spacer-y;
+}
+
+#accordion .panel .panel-heading .panel-title a {
+  width: 100%;
+  display: inline-block;
+}
+
+//
+// Footer
+//
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  background-color: $black;
+  font-family: $font-family-sans-serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  line-height: 1.25;
+  margin-top: $spacer-y;
+  z-index: $zindex-footer;
+
+  img {
+    width: 130px;
+    height: 30px;
+  }
+
+  p {
+      color: $gray;
+      margin: 20px 15px;
+
+      a {
+        font-family: $font-family-base;
+      }
+    }
+}
+
+@include media-breakpoint-up(md) {
+  
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+
+    /* no overflow horizontally */
+    overflow-x:hidden;
+  }
+  
+  .footer {
+    position: absolute;
+    /* Set the fixed height of the footer */
+    height: 60px;
+    line-height: 1.5;
+  }
+}
+
+footer img {
+  float: left;
+  margin: 15px;
+}
+
+//
+// Modal
+//
+
+.modal-content {
+  border-radius: $border-radius-sm;
+  @include box-shadow(0 -5px 18px rgba(0,0,0,.22),0 0 3px 0 rgba(0,0,0,.17));
+
+  select {
+    color: $near-black;
+  }
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.close {
+  color: $near-black;
+  font-size: $font-size-h1;
+  opacity: 1;
+}
+
+.schedule-form {
+  label {
+    text-align: right;
+    font-size: $font-size-sm;
+  }
+
+  &--dates {
+    text-align: center;
+
+    input[type="date"] {
+      width: 26%;
+    }
+    input[type="time"] {
+      width: 14.5%;
+    }
+  }
+}
+
+// needs work with BEM above Ty
+
+input[type="date"],
+input[type="time"] {
+  height: 38px;
+}
+
+//
+// Forecast
+//
+
+#genChart {
+  display: none;
+}
+
+//
+// Feedback for user
+//
+
+#userFeedback {
+  display: none;
+}
+
+.feedback.alert {
+  max-width: 540px;
+  min-height: 102px;
+  width: 100%;
+}
+
+//
+// Multiselect dropdown
+//
+.nya-bs-select {
+    button {
+      color:$black;
+    }
+}
+
+.nya-bs-select.btn-group {
+
+    .dropdown-menu {
+        li {
+          color:$black;
+          margin-left:10px;
+
+          a {
+            color:$black;
+          }
+        }
+    }
+
+    .bs-searchbox {
+      input.form-control {
+        border-radius:0;
+      }
+    }
+}
+
+
+/*
+.nya-bs-select {
+    width:100%;
+}
+*/
+
+ol#dynamic-options {
+    width:100%;
+}
+
+/*
+.nya-bs-select.btn-group .dropdown-menu li {
+    a {
+      color:$black;
+    }  
+}*/
+
+/*
+// Scale up the modal
+@include media-breakpoint-up(sm) {
+  // Automatically set modal's width for larger viewports
+  .modal-dialog {
+    width: $modal-md;
+    //margin: 30px auto;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .modal-content {
+    @include box-shadow(0 5px 15px rgba(0,0,0,.5));
+  }
+
+  // Modal sizes
+  .modal-sm { width: $modal-sm; }
+}
+
+@include media-breakpoint-up(md) {
+  .modal-lg { width: $modal-lg; }
+}*/
+
+/* center modal */
+.modal {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}

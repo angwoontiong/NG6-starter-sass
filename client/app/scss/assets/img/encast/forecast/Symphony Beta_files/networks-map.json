@@ -1,0 +1,1198 @@
+var locations = { "count": 598,
+ "Details": [
+  {"ID": 1, "title": "Island Utility: Cold Storage Facility", "url": "inner-detail-heco1", "color": "yellow-dot", "resource1": "VFD Chiller", "resource2": "", "resource3": "", "capacity": 500, "longitude": -157.9692396, "latitude": 21.3990126}
+  ,
+  {"ID": 2, "title": "Island Utility: Wastewater Treatment Plant", "url": "inner-detail-heco2", "color": "yellow-dot", "resource1": "VFD Aerator", "resource2": "", "resource3": "", "capacity": 1200, "longitude": -157.9738423, "latitude": 21.3923796}
+  ,
+  {"ID": 3, "title": "Island Utility: District Water Pumping Plant", "url": "inner-detail-heco3", "color": "yellow-dot", "resource1": "VFD Pump", "resource2": "", "resource3": "", "capacity": 600, "longitude": -157.9720763, "latitude": 21.4087247}
+  ,
+  {"ID": 4, "title": "Island Utility: Office Building", "url": "inner-detail-heco4", "color": "green-dot", "resource1": "Battery", "resource2": "HVAC", "resource3": "", "capacity": 450, "longitude": -157.9670686, "latitude": 21.3895979}
+  ,
+  {"ID": 5, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9732144, "latitude": 21.41016631}
+  ,
+  {"ID": 6, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9658046, "latitude": 21.41448648}
+  ,
+  {"ID": 7, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.969237, "latitude": 21.40714452}
+  ,
+  {"ID": 8, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9724997, "latitude": 21.39538945}
+  ,
+  {"ID": 9, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9543555, "latitude": 21.40831804}
+  ,
+  {"ID": 10, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9562337, "latitude": 21.39864896}
+  ,
+  {"ID": 11, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.957946, "latitude": 21.40976622}
+  ,
+  {"ID": 12, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9627808, "latitude": 21.41056258}
+  ,
+  {"ID": 13, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9632344, "latitude": 21.39952622}
+  ,
+  {"ID": 14, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9625891, "latitude": 21.40225623}
+  ,
+  {"ID": 15, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9576889, "latitude": 21.40925935}
+  ,
+  {"ID": 16, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9594891, "latitude": 21.40806357}
+  ,
+  {"ID": 17, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.964333, "latitude": 21.40370988}
+  ,
+  {"ID": 18, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9655254, "latitude": 21.392301}
+  ,
+  {"ID": 19, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9634944, "latitude": 21.40834014}
+  ,
+  {"ID": 20, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9540884, "latitude": 21.39967393}
+  ,
+  {"ID": 21, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9593092, "latitude": 21.40978321}
+  ,
+  {"ID": 22, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9573091, "latitude": 21.3986156}
+  ,
+  {"ID": 23, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9502086, "latitude": 21.40184151}
+  ,
+  {"ID": 24, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9575967, "latitude": 21.40432592}
+  ,
+  {"ID": 25, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9602491, "latitude": 21.39540072}
+  ,
+  {"ID": 26, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9636416, "latitude": 21.40793707}
+  ,
+  {"ID": 27, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9655254 , "latitude": 21.392301}
+  ,
+  {"ID": 28, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9727654, "latitude": 21.3961847}
+  ,
+  {"ID": 29, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9585741, "latitude": 21.40855605}
+  ,
+  {"ID": 30, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9599968, "latitude": 21.39718264}
+  ,
+  {"ID": 31, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9656334, "latitude": 21.40970297}
+  ,
+  {"ID": 32, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.959243, "latitude": 21.40881239}
+  ,
+  {"ID": 33, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9607709, "latitude": 21.40829201}
+  ,
+  {"ID": 34, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9623213, "latitude": 21.39828851}
+  ,
+  {"ID": 35, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9548937, "latitude": 21.41427563}
+  ,
+  {"ID": 36, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95304, "latitude": 21.40523265}
+  ,
+  {"ID": 37, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9568881, "latitude": 21.40886795}
+  ,
+  {"ID": 38, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9691427, "latitude": 21.39604702}
+  ,
+  {"ID": 39, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.960134, "latitude": 21.40290315}
+  ,
+  {"ID": 40, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9691583, "latitude": 21.39351382}
+  ,
+  {"ID": 41, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9730304, "latitude": 21.40484633}
+  ,
+  {"ID": 42, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9648556, "latitude": 21.40625097}
+  ,
+  {"ID": 43, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9772186, "latitude": 21.40764106}
+  ,
+  {"ID": 44, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9592584, "latitude": 21.39909965}
+  ,
+  {"ID": 45, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9644249, "latitude": 21.40629643}
+  ,
+  {"ID": 46, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9589947, "latitude": 21.41085167}
+  ,
+  {"ID": 47, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.968095, "latitude": 21.40524954}
+  ,
+  {"ID": 48, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9699488, "latitude": 21.40856462}
+  ,
+  {"ID": 49, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9579609, "latitude": 21.41320603}
+  ,
+  {"ID": 50, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9577842, "latitude": 21.40148777}
+  ,
+  {"ID": 51, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571931, "latitude": 21.40418107}
+  ,
+  {"ID": 52, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9609929, "latitude": 21.39374799}
+  ,
+  {"ID": 53, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.952415, "latitude": 21.41385148}
+  ,
+  {"ID": 54, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9616888, "latitude": 21.39723692}
+  ,
+  {"ID": 55, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9642066, "latitude": 21.39891426}
+  ,
+  {"ID": 56, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9569858, "latitude": 21.39396937}
+  ,
+  {"ID": 57, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9516544, "latitude": 21.40680097}
+  ,
+  {"ID": 58, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9556118, "latitude": 21.41104578}
+  ,
+  {"ID": 59, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9583076, "latitude": 21.41056523}
+  ,
+  {"ID": 60, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9657839, "latitude": 21.41039664}
+  ,
+  {"ID": 61, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9634753, "latitude": 21.41168629}
+  ,
+  {"ID": 62, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9534048, "latitude": 21.40558367}
+  ,
+  {"ID": 63, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95209, "latitude": 21.40515274}
+  ,
+  {"ID": 64, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571734, "latitude": 21.4048347}
+  ,
+   {"ID": 65, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9666334, "latitude":21.40970297}
+  ,
+   {"ID": 66, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.959243, "latitude":21.40881239}
+  ,
+   {"ID": 67, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9611483, "latitude":21.41112206}
+  ,
+   {"ID": 68, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9607709, "latitude":21.40829201}
+  ,
+   {"ID": 69, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9623213, "latitude":21.39828851}
+  ,
+   {"ID": 70, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9548937, "latitude":21.41427563}
+  ,
+   {"ID": 71, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95304, "latitude":21.40523265}
+  ,
+   {"ID": 72, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9568881, "latitude":21.40886795}
+  ,
+   {"ID": 73, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9691427, "latitude":21.39604702}
+  ,
+   {"ID": 74, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.960134, "latitude":21.40290315}
+  ,
+   {"ID": 75, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9691583, "latitude":21.39351382}
+  ,
+   {"ID": 76, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9730304, "latitude":21.40484633}
+  ,
+   {"ID": 77, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9778556, "latitude":21.40625097}
+  ,
+   {"ID": 78, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9772186, "latitude":21.40778106}
+  ,
+   {"ID": 79, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9592584, "latitude":21.39909965}
+  ,
+   {"ID": 80, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9804249, "latitude":21.40629803}
+  ,
+   {"ID": 81, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9589947, "latitude":21.41085167}
+  ,
+   {"ID": 82, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.968095, "latitude":21.40524954}
+  ,
+   {"ID": 83, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9699488, "latitude":21.40858362}
+  ,
+   {"ID": 84, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9579609, "latitude":21.41320603}
+  ,
+   {"ID": 85, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9577842, "latitude":21.40148777}
+  ,
+   {"ID": 86, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571931, "latitude":21.40418107}
+  ,
+   {"ID": 87, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9609929, "latitude":21.39374799}
+  ,
+   {"ID": 88, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.952415, "latitude":21.41385148}
+  ,
+   {"ID": 89, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9616888, "latitude":21.39723692}
+  ,
+   {"ID": 90, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9902066, "latitude":21.39891426}
+  ,
+   {"ID": 91, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9569858, "latitude":21.39396937}
+  ,
+   {"ID": 92, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9516544, "latitude":21.40680097}
+  ,
+   {"ID": 93, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9556118, "latitude":21.41104578}
+  ,
+   {"ID": 94, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9583076, "latitude":21.41056523}
+  ,
+   {"ID": 95, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9657839, "latitude":21.41039695}
+  ,
+   {"ID": 96, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9634753, "latitude":21.41168629}
+  ,
+   {"ID": 97, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9534048, "latitude":21.40558367}
+  ,
+   {"ID": 98, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.952095, "latitude":21.40515274}
+  ,
+   {"ID": 99, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571734, "latitude":21.4048347}
+  ,
+   {"ID": 100, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9693107, "latitude":21.40738147}
+  ,
+   {"ID": 101, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9598492, "latitude":21.40542399}
+  ,
+   {"ID": 102, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9686756, "latitude":21.41036925}
+  ,
+   {"ID": 103, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9559768, "latitude":21.40762134}
+  ,
+   {"ID": 104, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9629263, "latitude":21.41135187}
+  ,
+   {"ID": 105, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9539895, "latitude":21.40796986}
+  ,
+   {"ID": 106, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9633072, "latitude":21.40500728}
+  ,
+   {"ID": 107, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9639439, "latitude":21.40070884}
+  ,
+   {"ID": 108, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9713232, "latitude":21.40610972}
+  ,
+   {"ID": 109, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9587249, "latitude":21.409391095}
+  ,
+   {"ID": 110, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9608313, "latitude":21.41279153}
+  ,
+   {"ID": 111, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9624162, "latitude":21.40629983}
+  ,
+   {"ID": 112, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9579047, "latitude":21.39196244}
+  ,
+   {"ID": 113, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9746211, "latitude":21.41070196}
+  ,
+   {"ID": 114, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9592755, "latitude":21.41047711}
+  ,
+   {"ID": 115, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9717629, "latitude":21.40576715}
+  ,
+   {"ID": 116, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9746174, "latitude":21.40103562}
+  ,
+   {"ID": 117, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9530703, "latitude":21.397049}
+  ,
+   {"ID": 118, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9573845, "latitude":21.40598998}
+  ,
+   {"ID": 119, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9701759, "latitude":21.41010539}
+  ,
+   {"ID": 120, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9603673, "latitude":21.40726301}
+  ,
+   {"ID": 121, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9749336, "latitude":21.39921719}
+  ,
+   {"ID": 122, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9755337, "latitude":21.40422586}
+  ,
+   {"ID": 123, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.963746, "latitude":21.40873083}
+  ,
+   {"ID": 124, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9760822, "latitude":21.40677976}
+  ,
+   {"ID": 125, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9605827, "latitude":21.408786125}
+  ,
+   {"ID": 126, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9713823, "latitude":21.40351403}
+  ,
+   {"ID": 127, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9670309, "latitude":21.40409049}
+  ,
+   {"ID": 128, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9597523, "latitude":21.41528259}
+  ,
+   {"ID": 129, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9551191, "latitude":21.40127882}
+  ,
+   {"ID": 130, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9521309, "latitude":21.40696807}
+  ,
+   {"ID": 131, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9710803, "latitude":21.40961726}
+  ,
+   {"ID": 132, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9655074, "latitude":21.40143935}
+  ,
+   {"ID": 133, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.958602, "latitude":21.40762476}
+  ,
+   {"ID": 134, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9597281, "latitude":21.40408833}
+  ,
+   {"ID": 135, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.963009, "latitude":21.4047311}
+  ,
+   {"ID": 136, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9535801, "latitude":21.40925993}
+  ,
+   {"ID": 137, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9569705, "latitude":21.40901662}
+  ,
+   {"ID": 138, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.94813857, "latitude":21.3986306}
+  ,
+   {"ID": 139, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.97054, "latitude":21.41293857}
+  ,
+   {"ID": 140, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9589103, "latitude":21.40946837}
+  ,
+   {"ID": 141, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9628159, "latitude":21.411711412}
+  ,
+   {"ID": 142, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9629092, "latitude":21.41035418}
+  ,
+   {"ID": 143, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9601371, "latitude":21.40577702}
+  ,
+   {"ID": 144, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9690323, "latitude":21.40528422}
+  ,
+   {"ID": 145, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95927145, "latitude":21.405814516}
+  ,
+   {"ID": 146, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9678003, "latitude":21.3937133}
+  ,
+   {"ID": 147, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9604017, "latitude":21.4095906}
+  ,
+   {"ID": 148, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9603512, "latitude":21.41395548}
+  ,
+   {"ID": 149, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9661554, "latitude":21.39937526}
+  ,
+   {"ID": 150, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9593666, "latitude":21.41158677}
+  ,
+   {"ID": 151, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9686397, "latitude":21.40037652}
+  ,
+   {"ID": 152, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9556784, "latitude":21.41424693}
+  ,
+   {"ID": 153, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9676299, "latitude":21.40591995}
+  ,
+   {"ID": 154, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9744595, "latitude":21.39970502}
+  ,
+   {"ID": 155, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571994, "latitude":21.40380656}
+  ,
+   {"ID": 156, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9669823, "latitude":21.40479577}
+  ,
+   {"ID": 157, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9680955, "latitude":21.41035492}
+  ,
+   {"ID": 158, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9606575, "latitude":21.4098578}
+  ,
+   {"ID": 159, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9601592, "latitude":21.39731869}
+  ,
+   {"ID": 160, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9618225, "latitude":21.40982337}
+  ,
+   {"ID": 161, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9566892, "latitude":21.39976767}
+  ,
+   {"ID": 162, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9693271, "latitude":21.40896531}
+  ,
+   {"ID": 163, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9567573, "latitude":21.40740491}
+  ,
+   {"ID": 164, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9695808, "latitude":21.401645139}
+  ,
+   {"ID": 165, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9695015, "latitude":21.41167901}
+  ,
+   {"ID": 166, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9545523, "latitude":21.40699966}
+  ,
+   {"ID": 167, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96839167, "latitude":21.40397881}
+  ,
+   {"ID": 168, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9638607, "latitude":21.4040167}
+  ,
+   {"ID": 169, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9548073, "latitude":21.40183749}
+  ,
+   {"ID": 170, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9552231, "latitude":21.40099938}
+  ,
+   {"ID": 171, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9549204, "latitude":21.4130353}
+  ,
+   {"ID": 172, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.953381, "latitude":21.40936617}
+  ,
+   {"ID": 173, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9590538, "latitude":21.40298309}
+  ,
+   {"ID": 174, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9560405, "latitude":21.40441491}
+  ,
+   {"ID": 175, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9688677, "latitude":21.41023424}
+  ,
+   {"ID": 176, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9612739, "latitude":21.410156}
+  ,
+   {"ID": 177, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96917798, "latitude":21.39720098}
+  ,
+   {"ID": 178, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9604255, "latitude":21.40247728}
+  ,
+   {"ID": 179, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9657775, "latitude":21.39682098}
+  ,
+   {"ID": 180, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96713180, "latitude":21.39894238}
+  ,
+   {"ID": 181, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9685937, "latitude":21.39412349}
+  ,
+   {"ID": 182, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.972411, "latitude":21.40609804}
+  ,
+   {"ID": 183, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9563568, "latitude":21.40716693}
+  ,
+   {"ID": 184, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9569427, "latitude":21.40652761}
+  ,
+   {"ID": 185, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9660433, "latitude":21.41349447}
+  ,
+   {"ID": 186, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9552468, "latitude":21.41543038}
+  ,
+   {"ID": 187, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9590654, "latitude":21.41550935}
+  ,
+   {"ID": 188, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9567299, "latitude":21.40913823}
+  ,
+   {"ID": 189, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9657702, "latitude":21.40735398}
+  ,
+   {"ID": 190, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9585938, "latitude":21.40734095}
+  ,
+   {"ID": 191, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9561844, "latitude":21.41786513}
+  ,
+   {"ID": 192, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.91921172, "latitude":21.41249636}
+  ,
+   {"ID": 193, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9731535, "latitude":21.40871193}
+  ,
+   {"ID": 194, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9727229, "latitude":21.39765959}
+  ,
+   {"ID": 195, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9602791, "latitude":21.39465207}
+  ,
+   {"ID": 196, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9602143, "latitude":21.40537823}
+  ,
+   {"ID": 197, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9605911, "latitude":21.39486514}
+  ,
+   {"ID": 198, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9562974, "latitude":21.3958166}
+  ,
+   {"ID": 199, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9747377, "latitude":21.40326943}
+  ,
+   {"ID": 200, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9541732, "latitude":21.40598214}
+  ,
+   {"ID": 201, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9558992, "latitude":21.40986583}
+  ,
+   {"ID": 202, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9617991, "latitude":21.40406268}
+  ,
+   {"ID": 203, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9686878, "latitude":21.40336792}
+  ,
+   {"ID": 204, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.961778, "latitude":21.41016878}
+  ,
+   {"ID": 205, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9658581, "latitude":21.4072651}
+  ,
+   {"ID": 206, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9612369, "latitude":21.40841008}
+  ,
+   {"ID": 207, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9605256, "latitude":21.3958172}
+  ,
+   {"ID": 208, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9744565, "latitude":21.3988918}
+  ,
+   {"ID": 209, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9587861, "latitude":21.40810461}
+  ,
+   {"ID": 210, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9598253, "latitude":21.41119624}
+  ,
+   {"ID": 211, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9585769, "latitude":21.41339217}
+  ,
+   {"ID": 212, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9721393, "latitude":21.40682862}
+  ,
+   {"ID": 213, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9701391, "latitude":21.40246201}
+  ,
+   {"ID": 214, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9542451, "latitude":21.41066322}
+  ,
+   {"ID": 215, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9639428, "latitude":21.4021872}
+  ,
+   {"ID": 216, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9726554, "latitude":21.40695963}
+  ,
+   {"ID": 217, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9559886, "latitude":21.4075314}
+  ,
+   {"ID": 218, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9583828, "latitude":21.4099214}
+  ,
+   {"ID": 219, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9573215, "latitude":21.41307617}
+  ,
+   {"ID": 220, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9558665, "latitude":21.40202625}
+  ,
+   {"ID": 221, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9638111, "latitude":21.39309509}
+  ,
+   {"ID": 222, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9720545, "latitude":21.40245245}
+  ,
+   {"ID": 223, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9609244, "latitude":21.4103478}
+  ,
+   {"ID": 224, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9651415, "latitude":21.41025847}
+  ,
+   {"ID": 225, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.966049, "latitude":21.40246704}
+  ,
+   {"ID": 226, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9678677, "latitude":21.41290536}
+  ,
+   {"ID": 227, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9612289, "latitude":21.40240578}
+  ,
+   {"ID": 228, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571781, "latitude":21.41423186}
+  ,
+   {"ID": 229, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.92299443, "latitude":21.39830433}
+  ,
+   {"ID": 230, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9570968, "latitude":21.40788799}
+  ,
+   {"ID": 231, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9726257, "latitude":21.4042812}
+  ,
+   {"ID": 232, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9561043, "latitude":21.40799001}
+  ,
+   {"ID": 233, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9587955, "latitude":21.40183751}
+  ,
+   {"ID": 234, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9704668, "latitude":21.40655811}
+  ,
+   {"ID": 235, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9551428, "latitude":21.392358302}
+  ,
+   {"ID": 236, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.952153, "latitude":21.40170675}
+  ,
+   {"ID": 237, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9604216, "latitude":21.40552625}
+  ,
+   {"ID": 238, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9526365, "latitude":21.40246684}
+  ,
+   {"ID": 239, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9656912, "latitude":21.40699342}
+  ,
+   {"ID": 240, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95318240, "latitude":21.40125502}
+  ,
+   {"ID": 241, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.958907, "latitude":21.40856229}
+  ,
+   {"ID": 242, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9632406, "latitude":21.41225454}
+  ,
+   {"ID": 243, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9714777, "latitude":21.41123127}
+  ,
+   {"ID": 244, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9695171, "latitude":21.3959708}
+  ,
+   {"ID": 245, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9596788, "latitude":21.39775897}
+  ,
+   {"ID": 246, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9559717, "latitude":21.41001892}
+  ,
+   {"ID": 247, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9651516, "latitude":21.40556551}
+  ,
+   {"ID": 248, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9584112, "latitude":21.411224849}
+  ,
+   {"ID": 249, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9740927, "latitude":21.41065433}
+  ,
+   {"ID": 250, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9714606, "latitude":21.40286558}
+  ,
+   {"ID": 251, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.963755, "latitude":21.40124609}
+  ,
+   {"ID": 252, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.970677, "latitude":21.40638171}
+  ,
+   {"ID": 253, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9579743, "latitude":21.40785248}
+  ,
+   {"ID": 254, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9708462, "latitude":21.4096221}
+  ,
+   {"ID": 255, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9584342, "latitude":21.40695405}
+  ,
+   {"ID": 256, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9704796, "latitude":21.40921547}
+  ,
+   {"ID": 257, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96257686, "latitude":21.40861576}
+  ,
+   {"ID": 258, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9572854, "latitude":21.41414072}
+  ,
+   {"ID": 259, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9625432, "latitude":21.39008932}
+  ,
+   {"ID": 260, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9578039, "latitude":21.41755651}
+  ,
+   {"ID": 261, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9606126, "latitude":21.41241059}
+  ,
+   {"ID": 262, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9572195, "latitude":21.39968733}
+  ,
+   {"ID": 263, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9681043, "latitude":21.40019609}
+  ,
+   {"ID": 264, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9737193, "latitude":21.40406984}
+  ,
+   {"ID": 265, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9557763, "latitude":21.40249381}
+  ,
+   {"ID": 266, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9732431, "latitude":21.39949313}
+  ,
+   {"ID": 267, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.966549, "latitude":21.41444843}
+  ,
+   {"ID": 268, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9524863, "latitude":21.404826808}
+  ,
+   {"ID": 269, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9666056, "latitude":21.39590429}
+  ,
+   {"ID": 270, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9707516, "latitude":21.40635543}
+  ,
+   {"ID": 271, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9619633, "latitude":21.41171526}
+  ,
+   {"ID": 272, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9651361, "latitude":21.41343093}
+  ,
+   {"ID": 273, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9674069, "latitude":21.41002361}
+  ,
+   {"ID": 274, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9743246, "latitude":21.40232277}
+  ,
+   {"ID": 275, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9615179, "latitude":21.39770023}
+  ,
+   {"ID": 276, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9745866, "latitude":21.40362138}
+  ,
+   {"ID": 277, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9573198, "latitude":21.39862993}
+  ,
+   {"ID": 278, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9733749, "latitude":21.409278502}
+  ,
+   {"ID": 279, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9667785, "latitude":21.40523456}
+  ,
+   {"ID": 280, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.970294, "latitude":21.40411789}
+  ,
+   {"ID": 281, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.970313, "latitude":21.39387743}
+  ,
+   {"ID": 282, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9491302, "latitude":21.40022256}
+  ,
+   {"ID": 283, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9568926, "latitude":21.4086627}
+  ,
+   {"ID": 284, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9498506, "latitude":21.400052847}
+  ,
+   {"ID": 285, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.972221, "latitude":21.40399392}
+  ,
+   {"ID": 286, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9638102, "latitude":21.40965539}
+  ,
+   {"ID": 287, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9582631, "latitude":21.40538904}
+  ,
+   {"ID": 288, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9598326, "latitude":21.40486363}
+  ,
+   {"ID": 289, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9615657, "latitude":21.41325683}
+  ,
+   {"ID": 290, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9701511, "latitude":21.40863402}
+  ,
+   {"ID": 291, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9591594, "latitude":21.40787943}
+  ,
+   {"ID": 292, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9681847, "latitude":21.406292591}
+  ,
+   {"ID": 293, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9595686, "latitude":21.395720293}
+  ,
+   {"ID": 294, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9692827, "latitude":21.41363369}
+  ,
+   {"ID": 295, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9542524, "latitude":21.40132916}
+  ,
+   {"ID": 296, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9580325, "latitude":21.4113483}
+  ,
+   {"ID": 297, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9526998, "latitude":21.40805662}
+  ,
+   {"ID": 298, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95698, "latitude":21.40899459}
+  ,
+   {"ID": 299, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.957024, "latitude":21.39774246}
+  ,
+   {"ID": 300, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9576384, "latitude":21.40919599}
+  ,
+   {"ID": 301, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9626509, "latitude":21.4155813}
+  ,
+   {"ID": 302, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.930283029, "latitude":21.40394799}
+  ,
+   {"ID": 303, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9757919, "latitude":21.39610097}
+  ,
+   {"ID": 304, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9616534, "latitude":21.39522635}
+  ,
+   {"ID": 305, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9540697, "latitude":21.39822032}
+  ,
+   {"ID": 306, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9528773, "latitude":21.40705947}
+  ,
+   {"ID": 307, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.958907, "latitude":21.41075382}
+  ,
+   {"ID": 308, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9754897, "latitude":21.40456934}
+  ,
+   {"ID": 309, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9679608, "latitude":21.41316833}
+  ,
+   {"ID": 310, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9518547, "latitude":21.40038665}
+  ,
+   {"ID": 311, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9671858, "latitude":21.39360617}
+  ,
+   {"ID": 312, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9572175, "latitude":21.403123856}
+  ,
+   {"ID": 313, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9551606, "latitude":21.40275981}
+  ,
+   {"ID": 314, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9619166, "latitude":21.38991455}
+  ,
+   {"ID": 315, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9611583, "latitude":21.393315036}
+  ,
+   {"ID": 316, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9715497, "latitude":21.40736199}
+  ,
+   {"ID": 317, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96105, "latitude":21.39213979}
+  ,
+   {"ID": 318, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9668609, "latitude":21.41518262}
+  ,
+   {"ID": 319, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9695125, "latitude":21.40752182}
+  ,
+   {"ID": 320, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9657478, "latitude":21.41468433}
+  ,
+   {"ID": 321, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9703659, "latitude":21.39932432}
+  ,
+   {"ID": 322, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96532296, "latitude":21.41247607}
+  ,
+   {"ID": 323, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9556274, "latitude":21.40986661}
+  ,
+   {"ID": 324, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9533792, "latitude":21.39595415}
+  ,
+   {"ID": 325, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.93256608, "latitude":21.41486327}
+  ,
+   {"ID": 326, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9688778, "latitude":21.40710311}
+  ,
+   {"ID": 327, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9577497, "latitude":21.40762188}
+  ,
+   {"ID": 328, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96755, "latitude":21.39730154}
+  ,
+   {"ID": 329, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96329881, "latitude":21.40768175}
+  ,
+   {"ID": 330, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9690481, "latitude":21.39566915}
+  ,
+   {"ID": 331, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9715128, "latitude":21.40995109}
+  ,
+   {"ID": 332, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9713418, "latitude":21.40161497}
+  ,
+   {"ID": 333, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.956994, "latitude":21.40885447}
+  ,
+   {"ID": 334, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95693348, "latitude":21.39586117}
+  ,
+   {"ID": 335, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9728741, "latitude":21.41165239}
+  ,
+   {"ID": 336, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9611727, "latitude":21.39654605}
+  ,
+   {"ID": 337, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9584221, "latitude":21.41281999}
+  ,
+   {"ID": 338, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9560938, "latitude":21.41138489}
+  ,
+   {"ID": 339, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.960289, "latitude":21.40791394}
+  ,
+   {"ID": 340, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9651754, "latitude":21.407995}
+  ,
+   {"ID": 341, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9539679, "latitude":21.39909895}
+  ,
+   {"ID": 342, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9691717, "latitude":21.40978002}
+  ,
+   {"ID": 343, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.974256, "latitude":21.40925884}
+  ,
+   {"ID": 344, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.960548, "latitude":21.40504297}
+  ,
+   {"ID": 345, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.972702, "latitude":21.40787719}
+  ,
+   {"ID": 346, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9619891, "latitude":21.3979842}
+  ,
+   {"ID": 347, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9567666, "latitude":21.40947827}
+  ,
+   {"ID": 348, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9685713, "latitude":21.39740685}
+  ,
+   {"ID": 349, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9754908, "latitude":21.40341035}
+  ,
+   {"ID": 350, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9702749, "latitude":21.40352356}
+  ,
+   {"ID": 351, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.965716, "latitude":21.41374808}
+  ,
+   {"ID": 352, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9633306, "latitude":21.41017116}
+  ,
+   {"ID": 353, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9653332, "latitude":21.41134421}
+  ,
+   {"ID": 354, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96235428, "latitude":21.41251632}
+  ,
+   {"ID": 355, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9639916, "latitude":21.41277916}
+  ,
+   {"ID": 356, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9572925, "latitude":21.40660303}
+  ,
+   {"ID": 357, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9556953, "latitude":21.41247007}
+  ,
+   {"ID": 358, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9505921, "latitude":21.39478763}
+  ,
+   {"ID": 359, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9777462, "latitude":21.40627485}
+  ,
+   {"ID": 360, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9578044, "latitude":21.41275532}
+  ,
+   {"ID": 361, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9562551, "latitude":21.40365625}
+  ,
+   {"ID": 362, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9568707, "latitude":21.40163763}
+  ,
+   {"ID": 363, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9594582, "latitude":21.39639436}
+  ,
+   {"ID": 364, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9540272, "latitude":21.40002351}
+  ,
+   {"ID": 365, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9600639, "latitude":21.41006631}
+  ,
+   {"ID": 366, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9621128, "latitude":21.40401599}
+  ,
+   {"ID": 367, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9720025, "latitude":21.40478662}
+  ,
+   {"ID": 368, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9558127, "latitude":21.40435785}
+  ,
+   {"ID": 369, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.93692687, "latitude":21.41529855}
+  ,
+   {"ID": 370, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9740916, "latitude":21.40273068}
+  ,
+   {"ID": 371, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9525086, "latitude":21.39965012}
+  ,
+   {"ID": 372, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9560394, "latitude":21.41368356}
+  ,
+   {"ID": 373, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95483732, "latitude":21.40865956}
+  ,
+   {"ID": 374, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9561912, "latitude":21.40956752}
+  ,
+   {"ID": 375, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9619709, "latitude":21.40944615}
+  ,
+   {"ID": 376, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9598548, "latitude":21.40940636}
+  ,
+   {"ID": 377, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9711215, "latitude":21.40558546}
+  ,
+   {"ID": 378, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9578, "latitude":21.41660075}
+  ,
+   {"ID": 379, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9565703, "latitude":21.41465168}
+  ,
+   {"ID": 380, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.970773, "latitude":21.39749676}
+  ,
+   {"ID": 381, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9572869, "latitude":21.39870668}
+  ,
+   {"ID": 382, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9605076, "latitude":21.40841914}
+  ,
+   {"ID": 383, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9572746, "latitude":21.40791146}
+  ,
+   {"ID": 384, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9627081, "latitude":21.40387516}
+  ,
+   {"ID": 385, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9749578, "latitude":21.40598508}
+  ,
+   {"ID": 386, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9569328, "latitude":21.39223778}
+  ,
+   {"ID": 387, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9529941, "latitude":21.4051923}
+  ,
+   {"ID": 388, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9607737, "latitude":21.40348868}
+  ,
+   {"ID": 389, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571293, "latitude":21.4030758}
+  ,
+   {"ID": 390, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.967967, "latitude":21.40384991}
+  ,
+   {"ID": 391, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9575685, "latitude":21.41138697}
+  ,
+   {"ID": 392, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9619325, "latitude":21.39680408}
+  ,
+   {"ID": 393, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9574625, "latitude":21.40207872}
+  ,
+   {"ID": 394, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9638788, "latitude":21.40422206}
+  ,
+   {"ID": 395, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9539412, "latitude":21.40638735}
+  ,
+   {"ID": 396, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9617804, "latitude":21.393962923}
+  ,
+   {"ID": 397, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9696813, "latitude":21.39393739}
+  ,
+   {"ID": 398, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9607679, "latitude":21.39727738}
+  ,
+   {"ID": 399, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9711925, "latitude":21.39385032}
+  ,
+   {"ID": 400, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9680167, "latitude":21.41175267}
+  ,
+   {"ID": 401, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9569218, "latitude":21.39976375}
+  ,
+   {"ID": 402, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9552268, "latitude":21.40550862}
+  ,
+   {"ID": 403, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9581021, "latitude":21.40783321}
+  ,
+   {"ID": 404, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9598047, "latitude":21.4107024}
+  ,
+   {"ID": 405, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9679486, "latitude":21.39230597}
+  ,
+   {"ID": 406, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9719987, "latitude":21.40917786}
+  ,
+   {"ID": 407, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9550302, "latitude":21.41595293}
+  ,
+   {"ID": 408, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.968217, "latitude":21.40557426}
+  ,
+   {"ID": 409, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9576547, "latitude":21.41411994}
+  ,
+   {"ID": 410, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9698826, "latitude":21.39923447}
+  ,
+   {"ID": 411, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.958907, "latitude":21.39821923}
+  ,
+   {"ID": 412, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.960905, "latitude":21.404123793}
+  ,
+   {"ID": 413, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9599574, "latitude":21.40442528}
+  ,
+   {"ID": 414, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9605504, "latitude":21.40631075}
+  ,
+   {"ID": 415, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9665793, "latitude":21.40948524}
+  ,
+   {"ID": 416, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9654006, "latitude":21.39590886}
+  ,
+   {"ID": 417, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.955574, "latitude":21.40982172}
+  ,
+   {"ID": 418, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9545019, "latitude":21.41150723}
+  ,
+   {"ID": 419, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9631628, "latitude":21.40765771}
+  ,
+   {"ID": 420, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9568254, "latitude":21.40506841}
+  ,
+   {"ID": 421, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9608433, "latitude":21.41156035}
+  ,
+   {"ID": 422, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9698861, "latitude":21.40061785}
+  ,
+   {"ID": 423, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9655312, "latitude":21.4085684}
+  ,
+   {"ID": 424, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9639382, "latitude":21.404242666}
+  ,
+   {"ID": 425, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9550452, "latitude":21.40933551}
+  ,
+   {"ID": 426, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9696627, "latitude":21.40992278}
+  ,
+   {"ID": 427, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9517788, "latitude":21.40262335}
+  ,
+   {"ID": 428, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9620856, "latitude":21.41057686}
+  ,
+   {"ID": 429, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9563946, "latitude":21.39873365}
+  ,
+   {"ID": 430, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9548537, "latitude":21.39865812}
+  ,
+   {"ID": 431, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9565485, "latitude":21.4093504}
+  ,
+   {"ID": 432, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.94326389, "latitude":21.40784916}
+  ,
+   {"ID": 433, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9575938, "latitude":21.40954683}
+  ,
+   {"ID": 434, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9540518, "latitude":21.39417739}
+  ,
+   {"ID": 435, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9674617, "latitude":21.41061345}
+  ,
+   {"ID": 436, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9699315, "latitude":21.41119108}
+  ,
+   {"ID": 437, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.970756, "latitude":21.40469438}
+  ,
+   {"ID": 438, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9671041, "latitude":21.40708877}
+  ,
+   {"ID": 439, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95659, "latitude":21.41137011}
+  ,
+   {"ID": 440, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9689038, "latitude":21.40394693}
+  ,
+   {"ID": 441, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9521604, "latitude":21.3966195}
+  ,
+   {"ID": 442, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9665291, "latitude":21.40178325}
+  ,
+   {"ID": 443, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9565002, "latitude":21.40553302}
+  ,
+   {"ID": 444, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9631847, "latitude":21.41069631}
+  ,
+   {"ID": 445, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9651484, "latitude":21.4065843}
+  ,
+   {"ID": 446, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9666388, "latitude":21.40683303}
+  ,
+   {"ID": 447, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9650532, "latitude":21.40441867}
+  ,
+   {"ID": 448, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95194482, "latitude":21.39905785}
+  ,
+   {"ID": 449, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9723655, "latitude":21.40430311}
+  ,
+   {"ID": 450, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9561556, "latitude":21.39866852}
+  ,
+   {"ID": 451, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9577767, "latitude":21.40898699}
+  ,
+   {"ID": 452, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9715323, "latitude":21.39433744}
+  ,
+   {"ID": 453, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9522067, "latitude":21.39779113}
+  ,
+   {"ID": 454, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9665218, "latitude":21.41217004}
+  ,
+   {"ID": 455, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9631468, "latitude":21.40939833}
+  ,
+   {"ID": 456, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9690227, "latitude":21.41081653}
+  ,
+   {"ID": 457, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9594215, "latitude":21.40748632}
+  ,
+   {"ID": 458, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9663801, "latitude":21.41454368}
+  ,
+   {"ID": 459, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9740753, "latitude":21.40554716}
+  ,
+   {"ID": 460, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9677754, "latitude":21.41104666}
+  ,
+   {"ID": 461, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9584248, "latitude":21.40582036}
+  ,
+   {"ID": 462, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9634063, "latitude":21.40333945}
+  ,
+   {"ID": 463, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9586211, "latitude":21.39840137}
+  ,
+   {"ID": 464, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9657399, "latitude":21.40750923}
+  ,
+   {"ID": 465, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.955014, "latitude":21.39652027}
+  ,
+   {"ID": 466, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9728959, "latitude":21.40279934}
+  ,
+   {"ID": 467, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9588565, "latitude":21.41655787}
+  ,
+   {"ID": 468, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.972426, "latitude":21.39757359}
+  ,
+   {"ID": 469, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9586102, "latitude":21.40444252}
+  ,
+   {"ID": 470, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9707252, "latitude":21.3937149}
+  ,
+   {"ID": 471, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9602612, "latitude":21.41054888}
+  ,
+   {"ID": 472, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9584216, "latitude":21.40941507}
+  ,
+   {"ID": 473, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9695421, "latitude":21.40592068}
+  ,
+   {"ID": 474, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9582508, "latitude":21.407434742}
+  ,
+   {"ID": 475, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.955951, "latitude":21.4087376}
+  ,
+   {"ID": 476, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9547289, "latitude":21.40868262}
+  ,
+   {"ID": 477, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9751415, "latitude":21.41029358}
+  ,
+   {"ID": 478, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9618542, "latitude":21.40008619}
+  ,
+   {"ID": 479, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9580227, "latitude":21.39791745}
+  ,
+   {"ID": 480, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9681612, "latitude":21.40860519}
+  ,
+   {"ID": 481, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9772513, "latitude":21.40287362}
+  ,
+   {"ID": 482, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9572495, "latitude":21.40862884}
+  ,
+   {"ID": 483, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9721055, "latitude":21.40221506}
+  ,
+   {"ID": 484, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9729963, "latitude":21.40243792}
+  ,
+   {"ID": 485, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9584102, "latitude":21.40683829}
+  ,
+   {"ID": 486, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9570988, "latitude":21.40957571}
+  ,
+   {"ID": 487, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95841, "latitude":21.39578399}
+  ,
+   {"ID": 488, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9706772, "latitude":21.41363999}
+  ,
+   {"ID": 489, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.952778, "latitude":21.40421927}
+  ,
+   {"ID": 490, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9525318, "latitude":21.40354711}
+  ,
+   {"ID": 491, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9632541, "latitude":21.39348439}
+  ,
+   {"ID": 492, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9592901, "latitude":21.4093243}
+  ,
+   {"ID": 493, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9684013, "latitude":21.40931878}
+  ,
+   {"ID": 494, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9552752, "latitude":21.39702717}
+  ,
+   {"ID": 495, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9571854, "latitude":21.4146317}
+  ,
+   {"ID": 496, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9670816, "latitude":21.40792539}
+  ,
+   {"ID": 497, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9574157, "latitude":21.39429349}
+  ,
+   {"ID": 498, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9586831, "latitude":21.41165116}
+  ,
+   {"ID": 499, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9716013, "latitude":21.4072213}
+  ,
+   {"ID": 500, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9587952, "latitude":21.41498746}
+  ,
+   {"ID": 501, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9750172, "latitude":21.40349246}
+  ,
+   {"ID": 502, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9550795, "latitude":21.41040828}
+  ,
+   {"ID": 503, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9710978, "latitude":21.41026692}
+  ,
+   {"ID": 504, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9587853, "latitude":21.405049897}
+  ,
+   {"ID": 505, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9568112, "latitude":21.41249514}
+  ,
+   {"ID": 506, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9717587, "latitude":21.40724448}
+  ,
+   {"ID": 507, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9574534, "latitude":21.40147607}
+  ,
+   {"ID": 508, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9637624, "latitude":21.40361681}
+  ,
+   {"ID": 509, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9670558, "latitude":21.40633912}
+  ,
+   {"ID": 510, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9583329, "latitude":21.39662335}
+  ,
+   {"ID": 511, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9524103, "latitude":21.3991982}
+  ,
+   {"ID": 512, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9590226, "latitude":21.40097086}
+  ,
+   {"ID": 513, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.962436, "latitude":21.4080628}
+  ,
+   {"ID": 514, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9525967, "latitude":21.4048678}
+  ,
+   {"ID": 515, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.969352, "latitude":21.40345211}
+  ,
+   {"ID": 516, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9620038, "latitude":21.3949385}
+  ,
+   {"ID": 517, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9746187, "latitude":21.40257757}
+  ,
+   {"ID": 518, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9679232, "latitude":21.40429717}
+  ,
+   {"ID": 519, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.961212, "latitude":21.40972697}
+  ,
+   {"ID": 520, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9574375, "latitude":21.39477208}
+  ,
+   {"ID": 521, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9674721, "latitude":21.399521295}
+  ,
+   {"ID": 522, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9657932, "latitude":21.40170999}
+  ,
+   {"ID": 523, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9661252, "latitude":21.41380135}
+  ,
+   {"ID": 524, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9709742, "latitude":21.410352488}
+  ,
+   {"ID": 525, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9738151, "latitude":21.40425888}
+  ,
+   {"ID": 526, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9617902, "latitude":21.41030925}
+  ,
+   {"ID": 527, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9673613, "latitude":21.39539186}
+  ,
+   {"ID": 528, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9631462, "latitude":21.4103452}
+  ,
+   {"ID": 529, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9553525, "latitude":21.414265299}
+  ,
+   {"ID": 530, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9551379, "latitude":21.3974679}
+  ,
+   {"ID": 531, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9591033, "latitude":21.40451742}
+  ,
+   {"ID": 532, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9591259, "latitude":21.39650196}
+  ,
+   {"ID": 533, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9557837, "latitude":21.41116678}
+  ,
+   {"ID": 534, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9711507, "latitude":21.4106028}
+  ,
+   {"ID": 535, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9621523, "latitude":21.40066889}
+  ,
+   {"ID": 536, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9637126, "latitude":21.40610317}
+  ,
+   {"ID": 537, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9554062, "latitude":21.409070537}
+  ,
+   {"ID": 538, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9707624, "latitude":21.40952566}
+  ,
+   {"ID": 539, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9754047, "latitude":21.39855906}
+  ,
+   {"ID": 540, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.962333, "latitude":21.39616881}
+  ,
+   {"ID": 541, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9706957, "latitude":21.40677989}
+  ,
+   {"ID": 542, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9615034, "latitude":21.39479152}
+  ,
+   {"ID": 543, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9620104, "latitude":21.40795877}
+  ,
+   {"ID": 544, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9515169, "latitude":21.3985107}
+  ,
+   {"ID": 545, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95458461, "latitude":21.40962824}
+  ,
+   {"ID": 546, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9690335, "latitude":21.39278338}
+  ,
+   {"ID": 547, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.977495, "latitude":21.40346285}
+  ,
+   {"ID": 548, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9549135, "latitude":21.4031349}
+  ,
+   {"ID": 549, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9549238, "latitude":21.41355009}
+  ,
+   {"ID": 550, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9688021, "latitude":21.41174501}
+  ,
+   {"ID": 551, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9630904, "latitude":21.40054391}
+  ,
+   {"ID": 552, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95816, "latitude":21.39599311}
+  ,
+   {"ID": 553, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.96604, "latitude":21.39469072}
+  ,
+   {"ID": 554, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.970573, "latitude":21.405543353}
+  ,
+   {"ID": 555, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.967197, "latitude":21.40761874}
+  ,
+   {"ID": 556, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.969926, "latitude":21.39475602}
+  ,
+   {"ID": 557, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9709374, "latitude":21.40936115}
+  ,
+   {"ID": 558, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9622834, "latitude":21.41728987}
+  ,
+   {"ID": 559, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9752034, "latitude":21.40901435}
+  ,
+   {"ID": 560, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.95603286, "latitude":21.3988346}
+  ,
+   {"ID": 561, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9578811, "latitude":21.39804938}
+  ,
+   {"ID": 562, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9534187, "latitude":21.40056108}
+  ,
+   {"ID": 563, "title": "Island Utility: Enphase Residential Customer", "url": "inner-detail-heco5", "color": "blue-dot", "resource1": "Solar", "resource2": "Battery", "resource3": "", "capacity": 1.62, "longitude": -157.9563205, "latitude":21.40866226}
+  ,
+   {"ID": 564, "title": "CA Utility: Cold Storage Warehouse", "url": "inner-detail-sce1", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Battery", "resource3": "", "capacity": 350, "longitude": -118.3114626, "latitude": 33.7852596}
+  ,
+   {"ID": 565, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -117.935744, "latitude": 33.8000177}
+  ,
+   {"ID": 566, "title": "CA Utility: University Central Utility Plant", "url": "inner-detail-sce3", "color": "green-dot", "resource1": "District Cooling", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -117.9812175, "latitude": 34.028571}
+  ,
+   {"ID": 567, "title": "CA Utility: Wastewater Treatment Plant", "url": "inner-detail-sce4", "color": "green-dot", "resource1": "VFD Aerator", "resource2": "VFD Pumps", "resource3": "Battery", "capacity": 1750, "longitude": -118.1039242, "latitude": 33.8573549}
+  ,
+   {"ID": 568, "title": "CA Utility: Middle School", "url": "inner-detail-sce5", "color": "yellow-dot", "resource1": "Solar", "resource2": "HVAC", "resource3": "Battery", "capacity": 130, "longitude": -117.7097759, "latitude": 33.5216908}
+  ,
+   {"ID": 569, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.4051156, "latitude": 33.7844449}
+  ,
+   {"ID": 570, "title": "CA Utility: Cold Storage Warehouse", "url": "inner-detail-sce1", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Battery", "resource3": "", "capacity": 350, "longitude": -118.3514126, "latitude": 33.7852599}
+  ,
+   {"ID": 571, "title": "CA Utility: University Central Utility Plant", "url": "inner-detail-sce3", "color": "green-dot", "resource1": "District Cooling", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.1039242, "latitude": 33.9573549}
+  ,
+   {"ID": 572, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.1883192, "latitude": 33.7636857}
+  ,
+   {"ID": 573, "title": "CA Utility: Middle School", "url": "inner-detail-sce5", "color": "yellow-dot", "resource1": "Solar", "resource2": "HVAC", "resource3": "Battery", "capacity": 130, "longitude": -118.1794727, "latitude": 33.7800765}
+  ,
+   {"ID": 574, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.3151214, "latitude": 34.2398999}
+  ,
+   {"ID": 575, "title": "CA Utility: Cold Storage Warehouse", "url": "inner-detail-sce1", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Battery", "resource3": "", "capacity": 350, "longitude": -118.3271615, "latitude": 34.035142}
+  ,
+   {"ID": 576, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.186001, "latitude": 33.9666704}
+  ,
+   {"ID": 577, "title": "CA Utility: University Central Utility Plant", "url": "inner-detail-sce3", "color": "green-dot", "resource1": "District Cooling", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.1219805, "latitude": 34.1248004}
+  ,
+   {"ID": 578, "title": "CA Utility: Wastewater Treatment Plant", "url": "inner-detail-sce4", "color": "green-dot", "resource1": "VFD Aerator", "resource2": "VFD Pumps", "resource3": "Battery", "capacity": 1750, "longitude": -118.2243826, "latitude": 34.0070721}
+  ,
+   {"ID": 579, "title": "CA Utility: Middle School", "url": "inner-detail-sce5", "color": "yellow-dot", "resource1": "Solar", "resource2": "HVAC", "resource3": "Battery", "capacity": 130, "longitude": -117.9032292, "latitude": 33.6519378}
+  ,
+   {"ID": 580, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.2519998, "latitude": 33.9918318}
+  ,
+   {"ID": 581, "title": "CA Utility: Cold Storage Warehouse", "url": "inner-detail-sce1", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Battery", "resource3": "", "capacity": 350, "longitude": -118.1920163, "latitude": 33.9797424}
+  ,
+   {"ID": 582, "title": "CA Utility: University Central Utility Plant", "url": "inner-detail-sce3", "color": "green-dot", "resource1": "District Cooling", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.1039242, "latitude": 33.7573549}
+  ,
+   {"ID": 583, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.1931476, "latitude": 33.7735855}
+  ,
+   {"ID": 584, "title": "CA Utility: Middle School", "url": "inner-detail-sce5", "color": "yellow-dot", "resource1": "Solar", "resource2": "HVAC", "resource3": "Battery", "capacity": 130, "longitude": -118.3084757, "latitude": 33.8905028}
+  ,
+   {"ID": 585, "title": "CA Utility: Hospital", "url": "inner-detail-sce2", "color": "green-dot", "resource1": "HVAC", "resource2": "Battery", "resource3": "", "capacity": 950, "longitude": -118.0687483, "latitude": 34.1061433}
+  ,
+   {"ID": 586, "title": "CA Utility: Cold Storage Warehouse", "url": "inner-detail-sce1", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Battery", "resource3": "", "capacity": 350, "longitude": -118.1307087, "latitude": 34.0035735}
+,
+   {"ID": 587, "title": "ISO: Municapl Water Pumping", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Pump", "resource2": "Battery", "resource3": "", "capacity": 1450, "longitude": -77.2742271, "latitude": 39.1534926}
+  ,
+   {"ID": 588, "title": "ISO: University Central Utility Plant", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Elecric Boiler", "resource3": "", "capacity": 950, "longitude": -76.5516575, "latitude": 39.4059311}
+  ,
+   {"ID": 589, "title": "ISO: Wastewater Treatment Plant", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD RAS Pump", "resource2": "VFD Blower", "resource3": "Battery", "capacity": 1750, "longitude": -76.6779444, "latitude": 40.2849997}
+  ,
+   {"ID": 590, "title": "ISO: Hospital", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "HVAC", "resource3": "Battery", "capacity": 1300, "longitude": -74.7707752, "latitude": 40.2260042}
+  ,
+   {"ID": 591, "title": "ISO: Municapl Water Pumping", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Pump", "resource2": "Battery", "resource3": "", "capacity": 1450, "longitude": -80.0505403, "latitude": 40.4313473}
+  ,
+   {"ID": 592, "title": "ISO: University Central Utility Plant", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Elecric Boiler", "resource3": "", "capacity": 950, "longitude": -75.9505403, "latitude": 40.6313473}
+  ,
+   {"ID": 593, "title": "ISO: Wastewater Treatment Plant", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD RAS Pump", "resource2": "VFD Blower", "resource3": "Battery", "capacity": 1750, "longitude": -79.4284858, "latitude": 40.3946647}
+  ,
+   {"ID": 594, "title": "ISO: Hospital", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "HVAC", "resource3": "Battery", "capacity": 1300, "longitude": -76.7317245, "latitude": 39.2038554}
+   ,
+   {"ID": 595, "title": "ISO: Municapl Water Pumping", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Pump", "resource2": "Battery", "resource3": "", "capacity": 1450, "longitude": -76.8103936, "latitude": 39.264329}
+  ,
+   {"ID": 596, "title": "ISO: University Central Utility Plant", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "Elecric Boiler", "resource3": "", "capacity": 950, "longitude": -76.8449335, "latitude": 39.2431852}
+  ,
+   {"ID": 597, "title": "ISO: Wastewater Treatment Plant", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD RAS Pump", "resource2": "VFD Blower", "resource3": "Battery", "capacity": 1750, "longitude": -77.5931731, "latitude": 39.1014678}
+  ,
+   {"ID": 598, "title": "ISO: Hospital", "url": "dashboard3-fr", "color": "green-dot", "resource1": "VFD Chiller", "resource2": "HVAC", "resource3": "Battery", "capacity": 1300, "longitude": -78.9062018, "latitude": 38.4393053}
+]}

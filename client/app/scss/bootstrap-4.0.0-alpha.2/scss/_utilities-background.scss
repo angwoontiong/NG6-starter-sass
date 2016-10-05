@@ -1,0 +1,88 @@
+//
+// Contextual backgrounds
+//
+
+// Inverse
+// TODO: redo this as a proper class
+.bg-inverse {
+  color: $gray-lighter;
+  background-color: $gray-dark;
+}
+
+.bg-faded {
+  background-color: $gray-lightest;
+}
+
+// Colors
+// TODO: just added for demo not sure if right approach
+.primary {
+  color: $brand-primary;
+}
+
+.success {
+  color: $brand-success;
+}
+
+.info {
+  color: $brand-info;
+}
+
+.warning {
+  color: $brand-warning;
+}
+
+.danger {
+  color: $brand-danger;
+}
+
+.brand-blue-dark {
+  color: $brand-blue-dark;
+}
+
+.brand-blue {
+  color: $brand-blue;
+}
+
+.brand-blue-light {
+  color: $brand-blue-light;
+}
+
+.brand-green-dark {
+  color: $brand-green-dark;
+}
+
+.brand-green {
+  color: $brand-green;
+}
+
+.brand-green-light {
+  color: $brand-green-light;
+}
+
+.line-1 {
+  color: $line-1;
+}
+
+.line-2 {
+  color: $line-2;
+}
+
+.line-3 {
+  color: $line-3;
+}
+
+.line-4 {
+  color: $line-4;
+}
+
+// Background colors
+
+@include bg-variant('.bg-primary', $brand-primary);
+
+@include bg-variant('.bg-success', $brand-success);
+
+@include bg-variant('.bg-info', $brand-info);
+
+@include bg-variant('.bg-warning', $brand-warning);
+
+@include bg-variant('.bg-danger', $brand-danger);

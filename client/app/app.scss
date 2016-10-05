@@ -1,6 +1,16 @@
+// Shared
+//@import "./scss/custom_variables";
+
+@import './scss/bootstrap-4.0.0-alpha.2/scss/bootstrap.scss';
+
+@import "./scss/login";
+//@import "./scss/theme";
+
+
+//components
 @import 'common/common';
 
-.app {
-  height: 100%;
-  background-color: $lightBgColor;
-}
+//.app {
+//  height: 100%;
+//  background-color: $lightBgColor;
+//}
